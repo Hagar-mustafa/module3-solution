@@ -1,0 +1,97 @@
+#k{
+    font-size: 30px;
+}
+
+#myNavbar{
+ text-align: center;   
+}
+    
+
+.row div{
+    position: relative;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color:  gainsboro;
+  color: black;
+  opacity: .8;
+}
+
+
+
+@media (min-width: 1200px){
+    
+    .row div p{
+        
+        margin-top: 30px;
+        background-color: gainsboro;
+        padding-left:20px;
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    #myNavbar{
+        visibility: hidden;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .row div p{
+        margin-top: 30px;
+        background-color: gainsboro;
+         padding-left:20px;
+        padding-right: 10px;
+        font-size: 20px;
+        
+    }
+    #myNavbar{
+        visibility: hidden;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    #bb{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .row div p{
+        margin-top: 30px;
+        background-color: gainsboro;
+         padding-left:20px;
+        padding-right: 10px;
+        font-size: 20px;
+
+    }
+   #myNavbar{
+        visibility: hidden;
+    }
+    
+    h1{
+        text-align: center;
+    }
+}
+@media (max-width: 767px){
+    .row div p{
+        margin-top: 30px;
+        background-color: gainsboro;
+         padding-left:20px;
+        padding-right: 10px;
+        font-size: 20px;
+
+    }
+
+    h1{
+        text-align: center;
+    }
+}

@@ -2,7 +2,7 @@
     font-size: 30px;
 }
 
-#myNavbar{
+#collapsable-nav{
  text-align: center;   
 }
     
@@ -39,7 +39,7 @@
     h1{
         text-align: center;
     }
-    #myNavbar{
+    #collapsable-nav{
         visibility: hidden;
     }
 
@@ -53,7 +53,7 @@
         font-size: 20px;
         
     }
-    #myNavbar{
+    #collapsable-nav{
         visibility: hidden;
     }
     
@@ -73,7 +73,7 @@
         font-size: 20px;
 
     }
-   #myNavbar{
+   #collapsable-nav{
         visibility: hidden;
     }
     
